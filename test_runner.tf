@@ -41,7 +41,7 @@ resource "aws_instance" "test_runner" {
       sudo gitlab-runner register \
       --non-interactive \
       --url https://gitlab.com/ \
-      --registration-token WSUn2yywsVtX9thTBG6rTV \
+      --registration-token XXXXXXXXXXXXXXX \
       --description aws_terraform_runner_${random_id.id.dec} \
       --tag-list django,git,postgres,python,shell \
       --run-untagged=true \
